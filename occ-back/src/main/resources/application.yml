@@ -1,0 +1,42 @@
+server:
+  port: 8090
+
+#Browser:
+#  version: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36  # \u6D4F\u89C8\u5668\u7248\u672C
+
+#Connection:
+#  timeout: 30000  # \u8FDE\u63A5\u7F51\u7AD9\u54CD\u5E94\u65F6\u95F4
+#
+#Request:
+#  timeout: 60000 # \u8BF7\u6C42\u65F6\u95F4
+#
+## DMM\u767B\u5F55\u7F51\u5740
+#loin:
+#  url: https://www.dmm.com/my/-/login/
+## DMM\u767B\u5F55\u7F51\u5740
+#ajax:
+#  tokenurl: https://www.dmm.com/my/-/login/ajax-get-token/
+#
+## DMM\u767B\u5F55\u7F51\u5740
+#dmm:
+#  com: https://www.dmm.com
+#
+#auth:
+#  url: https://www.dmm.com/my/-/login/auth/
+#
+#game:
+#  url: http://www.dmm.com/netgame/social/-/gadgets/=/app_id=854854/
+#
+#world:
+#  url: http://203.104.209.7/kcsapi/api_world/get_id/%s/1/%d
+#
+#get:
+#  flash:
+#    url: http://%w/kcsapi/api_auth_member/dmmlogin/%s/1/%d
+#
+#make:
+#  request:
+#    url: http://osapi.dmm.com/gadgets/makeRequest
+#
+#flash:
+#  url: http://%w/kcs/mainD2.swf?api_token=%s&amp;api_starttime=%d

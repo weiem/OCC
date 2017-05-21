@@ -1,0 +1,21 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<title>Insert title here</title>
+</head>
+<body>
+	<form action="/flashgame" method="post">
+		<p>用户名:<input name="username" type="email" /> </p>
+		<p>密码: <input name="password" type="password" /> </p>
+		<p>运行方式:
+			<select>
+			  <option value ="1">浏览器中运行</option>
+			  <option value ="2">在74EO中运行</option>
+			  <option value="3">poi中运行</option>
+			  <option value="4">登录器直连模式(新账号起名用此模式)</option>
+			</select>
+		</p>
+		<p><input name="login" type="submit" value="登录" /></p>
+	</form>
+</body>
+</html>

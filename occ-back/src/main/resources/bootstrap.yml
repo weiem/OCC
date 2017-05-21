@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: occ-back
+  cloud:
+    config:
+      enabled: true
+      discovery:
+        enabled: true
+        service-id: OCC-CONFIG #1
+        
+eureka:
+  instance:
+    non-secure-port: ${server.port:8090}
+  client:
+    service-url:
+      defaultZone: http://${eureka.host:localhost}:${eureka.port:8761}/eureka/
